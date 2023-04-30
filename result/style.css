@@ -1,0 +1,33 @@
+.MyDiv{
+    text-align: justify;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+h1{
+    font-size: 45px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 33px;
+}
+
+h4{
+    font-size: 25px;
+}
+
+p{
+    font-size: 20px;
+}
+
+blockquote{
+    background-color: rgb(224, 224, 224);
+}
