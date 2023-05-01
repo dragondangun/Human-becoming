@@ -24,10 +24,14 @@ h4{
     font-size: 25px;
 }
 
-p{
+.MyDiv p{
     font-size: 20px;
 }
 
-blockquote{
+.MyDiv p::first-letter {
+    margin-left: 40px;
+}
+
+.MyDiv blockquote {
     background-color: rgb(224, 224, 224);
 }
