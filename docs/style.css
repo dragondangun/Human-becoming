@@ -34,7 +34,7 @@ h4{
     font-size: 25px;
 }
 
-.MyDiv p{
+.MyDiv p span{
     font-size: 20px;
 }
 
@@ -44,4 +44,26 @@ h4{
 
 .MyDiv blockquote {
     background-color: rgb(224, 224, 224);
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; 
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
